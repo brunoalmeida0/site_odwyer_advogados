@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body, .capa {
+	height: 100%;
+
+}
+
+body {
+	background: url('../imagens/imagemprincipal.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+/* -- Barra de Navegação -- */
+.img-logo {
+    margin-top: -12px;
+	height: 45px;
+	width: 132px;
+	display: block; /* span é inline e quero definir como bloco */
+	background-size: contain;
+	color: transparent; /* manter os textos pois os leitores de tela os reconhecem */
+}
+
+nav.navbar-transparente {
+	transition: 1s;
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6); /* definição da transparencia da barra de menus */
+	border: none;
+}
+nav.navbar-solida{
+	transition: 1s;
+	padding: 15px 0px;
+	background: #2c2c2c;
+	border: none;
+}
+
+.navbar-brand {
+	padding: 5px 15px; /* sobreescrita de classe para centralizar logo */
+}
+
+#barra-navegacao a{
+	color: #efd8c5;
+}
+
+li{
+	font-size: 1.1vw;
+	text-decoration: none;
+}
+
+li:hover{
+	font-weight: bold;
+}
+
+li:active{
+	font-weight: ;
+}
+
+.menu-fixo{
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+
+section{
+	background: #fff;
+	padding-bottom: 9px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+#contato{
+	background: rgba(0,0,0,0.1);
+	color: #fff;
+}
+
+.balanca{
+	width: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+.principios{
+	text-align: center;
+}
+.fotos-quemsomos img{
+	margin-top: 10px;
+	width: 550px;
+}
+
+.imgatuacao{
+	margin-top: 2vh;
+	width: 150px;
+	margin-left: 20%;
+	margin-right: 25%;
+}
+
+.direita{
+	padding: 0px;
+}
+
+.direita img{
+	float: right;
+	padding-bottom: 30px;
+}
+
+.titulodireita{
+	text-align: right;
+}
+
+.enviar{
+	margin-top: 9px;
+}
+
+footer{
+	background-color: #fff;
+	margin-top: 15px;
+}
+
+.imgfooter{
+	margin-top: 2%;
+}
+
+.atuacao a h2 {
+	color: #000;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.atuacao a h2:hover, .atuacao a:hover{
+	color: #d32a27;
+	text-decoration: none;
+}
+
+/*.imgatuacao:hover .atuacao a h2{
+	color: #d32a27;
+	text-decoration: none;
+}*/
+
+h1{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.texto-capa h1{
+	text-align: left;
+	margin-top: 25%;
+	margin-left: 5%;
+	color: #efd8c5;
+}
+
+.texto-quemsomos h2{
+	padding-top: 8vh;
+	font-size: 1.7vw;
+	color: #d32a27;
+}
+
+h2.principios{
+	margin-top: 0;
+}
+
+.atuacao h2{
+	text-align: center;
+}
+
+.texto-quemsomos h3{
+	font-size: 1.5vw;
+	color: #d32a27;
+}
+
+.profissionais h3 {
+	font-size: 2vw;
+	color: #d32a27;
+}
+
+p{
+	font-size: 1.4vw;
+	text-align: justify;
+}
+
+footer p{
+	padding: 10px;
+	font-size: 1vw;
+	margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.texto-capa h1{
+		margin-top: 35%;
+		margin-left: 5%;
+	}
+
+	.texto-quemsomos h2{
+		padding-top: 5vh;
+	}
+
+	.imgatuacao{
+		margin-left: 30px;
+		margin-right: 0;
+	}
+
+	.atuacao h2{
+		font-size: 3vw;
+		text-align: center;
+
+	}
+
+	.direito{
+		margin-left: -3px;
+	}
+
+	footer p{
+		font-size: 1.4vw;
+	}
+
+	.imgfooter{
+		margin-top: 4%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.navbar-toggle{
+		right: 10px;
+	}
+	li{
+		font-size: 3vw;
+	}
+
+	.imgatuacao{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	h1{
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+		text-align: center;
+	}
+
+	.texto-capa h1{
+		margin-top: 65%;
+		margin-left: 5%;
+		font-size: 12vw;
+	}
+
+	.fotos-quemsomos{
+		margin-bottom: -57px;
+	}
+
+	.oescritorio{
+		margin-bottom: 20px;
+	}
+
+	.texto-escritorio{
+		margin-bottom: 20px;
+	}
+
+	.balanca{
+		width: 25px;
+	}
+
+	.texto-quemsomos h2{
+		font-size: 6vw;
+		text-align: center;
+		color: #d32a27;
+	}
+
+	.atuacao h2{
+		font-size: 3.5vw;
+		text-align: center;
+	}
+
+	.profissionais h3, .texto-quemsomos h3{
+		font-size: 5vw;
+		color: #d32a27;
+	}
+
+	.profissionais img{
+		width: 110px;
+	}
+
+	.direita img{
+		padding-bottom: 0px;
+	}
+
+	p{
+		font-size: 3vw;
+		text-align: justify;
+	}
+
+	.profissionais p {
+		margin-bottom: 30px;
+	}
+
+	footer p{
+		padding-top: 15px;
+		font-size: 2.5vw;
+	}
+
+	.imgfooter{
+		margin-top: 7%;
+	}
+}
