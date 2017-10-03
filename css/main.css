@@ -15,9 +15,9 @@ body {
 
 /* -- Barra de Navegação -- */
 .img-logo {
-    margin-top: -12px;
-	height: 45px;
-	width: 132px;
+    margin-top: -23px;
+	height: 61px;
+	width: 180px;
 	display: block; /* span é inline e quero definir como bloco */
 	background-size: contain;
 	color: transparent; /* manter os textos pois os leitores de tela os reconhecem */
