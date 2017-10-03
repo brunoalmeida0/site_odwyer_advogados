@@ -80,13 +80,20 @@ section{
 	width: 30px;
 	float: left;
 	margin-right: 10px;
+	margin-top: 15px;
 }
 
 .principios{
 	text-align: center;
 }
+
+.oescritorio{
+	margin-top: 60px;
+}
+
 .fotos-quemsomos img{
 	margin-top: 10px;
+	margin-bottom: 15px;
 	width: 550px;
 }
 
@@ -95,6 +102,10 @@ section{
 	width: 150px;
 	margin-left: 20%;
 	margin-right: 25%;
+}
+
+.profissionais div{
+	margin-top: 10px;
 }
 
 .direita{
@@ -133,11 +144,6 @@ footer{
 	color: #d32a27;
 	text-decoration: none;
 }
-
-/*.imgatuacao:hover .atuacao a h2{
-	color: #d32a27;
-	text-decoration: none;
-}*/
 
 h1{
 	padding-top: 3vh;
@@ -183,10 +189,20 @@ p{
 	text-align: justify;
 }
 
+.profissionais p{
+	font-size: 1.2vw;
+	text-align: justify;
+}
+
 footer p{
 	padding: 10px;
 	font-size: 1vw;
 	margin-bottom: 0px;
+}
+
+.texto-escritorio{
+	vertical-align: bottom;
+	font-size: 1.3vw;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -262,6 +278,10 @@ footer p{
 
 	.balanca{
 		width: 25px;
+		float: left;
+		margin-right: 10px;
+		margin-top: 0px;
+		margin-bottom: 5px;
 	}
 
 	.texto-quemsomos h2{
