@@ -313,7 +313,12 @@ footer p{
 		text-align: justify;
 	}
 
+	.quem-somos p{
+		font-size: 3vw;
+	}
+
 	.profissionais p {
+		font-size: 3vw;
 		margin-bottom: 30px;
 	}
 
