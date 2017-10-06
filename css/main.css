@@ -10,6 +10,9 @@ body {
 	background-attachment: fixed;
 	background-position: right;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -239,10 +242,37 @@ footer p{
 	}
 }
 
+@media only screen and (max-width: 376px){
+
+	body {
+		background: url('../imagens/imagemprincipal.jpg');
+		background-attachment: fixed;
+		background-position: right;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		font-family: 'Open Sans', sans-serif !important;
+	}
+}
+
 @media only screen and (max-width: 768px){
+
+	body {
+		background: url('../imagens/imagemprincipal.jpg');
+		background-attachment: scroll;
+		background-position: right;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		font-family: 'Open Sans', sans-serif !important;
+	}
+
 	.navbar-toggle{
 		right: 10px;
 	}
+
 	li{
 		font-size: 3vw;
 	}
