@@ -7,7 +7,7 @@
    }
 
 
-	$assunto2 = "Formulário de contato: ".$assunto;
+	$assunto2 = "Formulário de contato do site: ".$assunto;
 
 	$mensagem1 = "
 		<html>
@@ -21,19 +21,19 @@
 		</html>
 	";
 
-   $to = "emaildocliente@email.com.br"; //
+   $to = "emaildocliente@cliente.com";
    $headers = "Content-Type: text/html; charset=UTF-8;"."\r\n"."From:".$email;
    @mail($to, '=?utf-8?B?'.base64_encode($assunto2).'?=', $mensagem1, $headers);
 
    $headers2 = "Content-Type: text/html; charset=UTF-8;"."\r\n"."From:".$to;
-   $a_resposta = "NomeDoCliente"; //
+   $a_resposta = "Escritório O'dwyer";
    $resposta = "
    <html>
    <head>
-    <title> </title>
+    <title>Escritório O'dwyer</title>
    </head>
    <body>
-   <p>Olá ".$nome.",<br><br>Sua mensagem foi recebida!<br>Em breve entraremos em contato!<br><br>Obrigado!</p>
+   <p>Olá ".$nome.",<br><br> Sua mensagem foi recebida!<br>Em breve entraremos em contato!<br><br>Obrigado!</p>
    </body>
    </html>";
    @mail($email, $a_resposta, $resposta, $headers2);
@@ -43,5 +43,4 @@
     window.alert('Sua mensagem foi enviada com sucesso.');
     window.location.href='../index.html';
     </SCRIPT>");
-
 ?>
